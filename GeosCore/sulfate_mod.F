@@ -2718,6 +2718,7 @@
       ! Pointers
       REAL(fp), POINTER     :: Spc(:,:,:,:)
       REAL(fp), POINTER     :: pHCloud(:,:,:)
+      REAL(fp), POINTER     :: QLxpHCloud(:,:,:) !jmm 3/7/19
       REAL(fp), POINTER     :: isCloud(:,:,:) ! jmm 3/1/19
       REAL(fp), POINTER     :: SSAlk(:,:,:,:)
       REAL(fp), POINTER     :: H2O2s(:,:,:)
@@ -2748,6 +2749,7 @@
       ! Point to chemical species array [v/v dry]
       Spc         => State_Chm%Species
       pHCloud     => State_Chm%pHCloud
+      QLxpHCloud  => State_Chm%QLxpHCloud
       isCloud     => State_Chm%isCloud ! jmm 3/1/19
       SSAlk       => State_Chm%SSAlk
       H2O2s       => State_Chm%H2O2AfterChem
@@ -2755,6 +2757,7 @@
 
       ! Reset cloud pH for safety
       pHCloud(:,:,:) = 0.0e+0_fp
+      QLxpHCloud(:,:,:) = 0.0e+0_fp
       isCloud(:,:,:) = 0.0e+0_fp ! jmm 3/1/19
 
 
@@ -3234,6 +3237,8 @@
 
             ! Store the cloud pH
             pHCloud(I,J,L) = -1.0e+0_fp * log10(HPLUS)
+            QLxpHCloud(I,J,L) = -1.0e+0_fp * log10(HPLUS) *
+     &           State_Met%QL(I,J,L) !jmm 3/7/19
             isCloud(I,J,L) = 1.0e+0_fp ! jmm 3/1/19
 
             IF ( Input_Opt%LMETALCATSO2 ) THEN
