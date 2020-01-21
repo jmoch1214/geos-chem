@@ -545,6 +545,7 @@ DICE_CARS_RCHO g/m2/yr N Y - none 3.171e-11 RCHO ./MainDataDir/DICE_Africa/v2016
 DICE_CARS_PRPE g/m2/yr N Y - none 2.713e-11 PRPE ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-cars-2013-v01-4Oct2016.nc
 DICE_CARS_CH2O g/m2/yr N Y - none 3.171e-11 CH2O ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-cars-2013-v01-4Oct2016.nc
 DICE_CARS_SO2  g/m2/yr N Y - none 3.171e-11 SO2  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-cars-2013-v01-4Oct2016.nc
+DICE_CARS_C2H4 g/m2/yr N Y - none 3.171e-11 C2H4 ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-cars-2013-v01-4Oct2016.nc
 DICE_CARS_BENZ g/m2/yr N Y - none 2.923e-11 BENZ ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-cars-2013-v01-4Oct2016.nc
 DICE_CARS_TOLU g/m2/yr N Y - none 2.891e-11 TOLU ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-cars-2013-v01-4Oct2016.nc
 DICE_CARS_XYLE g/m2/yr N Y - none 2.868e-11 XYLE ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-cars-2013-v01-4Oct2016.nc
@@ -577,6 +578,7 @@ DICE_BACKUPGEN_RCHO g/m2/yr  N Y - none 3.171e-11 RCHO ./MainDataDir/DICE_Africa
 DICE_BACKUPGEN_MVK  g/m2/yr  N Y - none 3.171e-11 MVK  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-generator-use-2013-v01-4Oct2016.nc
 DICE_BACKUPGEN_MACR g/m2/yr  N Y - none 3.171e-11 MACR ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-generator-use-2013-v01-4Oct2016.nc
 DICE_BACKUPGEN_CH2O g/m2/yr  N Y - none 3.171e-11 CH2O ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-generator-use-2013-v01-4Oct2016.nc
+DICE_BACKUPGEN_C2H4 g/m2/yr  N Y - none 3.171e-11 C2H4 ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-generator-use-2013-v01-4Oct2016.nc
 DICE_BACKUPGEN_BENZ g/m2/yr  N Y - none 2.923e-11 BENZ ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-generator-use-2013-v01-4Oct2016.nc
 DICE_BACKUPGEN_TOLU g/m2/yr  N Y - none 2.891e-11 TOLU ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-generator-use-2013-v01-4Oct2016.nc
 DICE_BACKUPGEN_XYLE g/m2/yr  N Y - none 2.868e-11 XYLE ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-generator-use-2013-v01-4Oct2016.nc
@@ -591,8 +593,12 @@ DICE_CHARCOALPROD_PRPE  g/m2/yr  N Y - none 2.713e-11 PRPE  ./MainDataDir/DICE_A
 DICE_CHARCOALPROD_CH2O  g/m2/yr  N Y - none 3.171e-11 CH2O  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
 DICE_CHARCOALPROD_C2H6  g/m2/yr  N Y - none 2.531e-11 C2H6  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
 DICE_CHARCOALPROD_HAC   g/m2/yr  N Y - none 3.171e-11 HAC   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
+DICE_CHARCOALPROD_C2H2  g/m2/yr  N Y - none 3.171e-11 C2H2  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
+DICE_CHARCOALPROD_C2H4  g/m2/yr  N Y - none 3.171e-11 C2H4  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
 DICE_CHARCOALPROD_TOLU  g/m2/yr  N Y - none 2.891e-11 TOLU  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
 DICE_CHARCOALPROD_HCOOH g/m2/yr  N Y - none 3.171e-11 HCOOH ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
+DICE_CHARCOALPROD_MOH   g/m2/yr  N Y - none 3.171e-11 MOH   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
+
 DICE_CHARCOALPROD_BCPI  g/m2/yr  N Y - none 3.171e-11 BC    ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
 DICE_CHARCOALPROD_OCPI  g/m2/yr  N Y - none 3.171e-11 OC    ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-production-2013-v01-4Oct2016.nc
 
@@ -628,6 +634,9 @@ DICE_AGBURNING_CH2O  g/m2/yr  N Y - none 3.171e-11 CH2O  ./MainDataDir/DICE_Afri
 DICE_AGBURNING_C2H6  g/m2/yr  N Y - none 2.531e-11 C2H6  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
 DICE_AGBURNING_HAC   g/m2/yr  N Y - none 3.171e-11 HAC   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
 DICE_AGBURNING_GLYC  g/m2/yr  N Y - none 3.171e-11 GLYC  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
+DICE_AGBURNING_MOH   g/m2/yr  N Y - none 3.171e-11 MOH   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
+DICE_AGBURNING_C2H2  g/m2/yr  N Y - none 3.171e-11 C2H2  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
+DICE_AGBURNING_C2H4  g/m2/yr  N Y - none 3.171e-11 C2H4  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
 DICE_AGBURNING_BENZ  g/m2/yr  N Y - none 2.923e-11 BENZ  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
 DICE_AGBURNING_TOLU  g/m2/yr  N Y - none 2.891e-11 TOLU  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
 DICE_AGBURNING_XYLE  g/m2/yr  N Y - none 2.868e-11 XYLE  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-crop-residue-use-2013-v01-4Oct2016.nc
@@ -643,7 +652,10 @@ DICE_CHARCOALUSE_NH3   g/m2/yr  N Y - none 3.171e-11 NH3   ./MainDataDir/DICE_Af
 DICE_CHARCOALUSE_PRPE  g/m2/yr  N Y - none 2.713e-11 PRPE  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
 DICE_CHARCOALUSE_CH2O  g/m2/yr  N Y - none 3.171e-11 CH2O  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
 DICE_CHARCOALUSE_C2H6  g/m2/yr  N Y - none 2.531e-11 C2H6  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
+DICE_CHARCOALUSE_C2H2  g/m2/yr  N Y - none 2.531e-11 C2H2  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
+DICE_CHARCOALUSE_C2H4  g/m2/yr  N Y - none 2.531e-11 C2H4  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
 DICE_CHARCOALUSE_HCOOH g/m2/yr  N Y - none 3.171e-11 HCOOH ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
+DICE_CHARCOALUSE_MOH   g/m2/yr  N Y - none 3.171e-11 MOH   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
 DICE_CHARCOALUSE_BCPI  g/m2/yr  N Y - none 3.171e-11 BC    ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
 DICE_CHARCOALUSE_OCPI  g/m2/yr  N Y - none 3.171e-11 OC    ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-charcoal-use-2013-v01-4Oct2016.nc
 
@@ -686,6 +698,9 @@ DICE_HOUSEFUELWOOD_CH2O  g/m2/yr  N Y - none 3.171e-11 CH2O  ./MainDataDir/DICE_
 DICE_HOUSEFUELWOOD_C2H6  g/m2/yr  N Y - none 2.531e-11 C2H6  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_HOUSEFUELWOOD_HAC   g/m2/yr  N Y - none 3.171e-11 HAC   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_HOUSEFUELWOOD_GLYC  g/m2/yr  N Y - none 3.171e-11 GLYC  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
+DICE_HOUSEFUELWOOD_MOH   g/m2/yr  N Y - none 3.171e-11 MOH   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
+DICE_HOUSEFUELWOOD_C2H2  g/m2/yr  N Y - none 3.171e-11 C2H2  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
+DICE_HOUSEFUELWOOD_C2H4  g/m2/yr  N Y - none 3.171e-11 C2H4  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_HOUSEFUELWOOD_BENZ  g/m2/yr  N Y - none 2.923e-11 BENZ  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_HOUSEFUELWOOD_TOLU  g/m2/yr  N Y - none 2.891e-11 TOLU  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_HOUSEFUELWOOD_XYLE  g/m2/yr  N Y - none 2.868e-11 XYLE  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-household-fuelwood-use-2013-v01-4Oct2016.nc
@@ -709,6 +724,9 @@ DICE_OTHERFUELWOOD_CH2O  g/m2/yr  N Y - none 3.171e-11 CH2O  ./MainDataDir/DICE_
 DICE_OTHERFUELWOOD_C2H6  g/m2/yr  N Y - none 2.531e-11 C2H6  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_OTHERFUELWOOD_HAC   g/m2/yr  N Y - none 3.171e-11 HAC   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_OTHERFUELWOOD_GLYC  g/m2/yr  N Y - none 3.171e-11 GLYC  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
+DICE_OTHERFUELWOOD_MOH   g/m2/yr  N Y - none 3.171e-11 MOH   ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
+DICE_OTHERFUELWOOD_C2H2  g/m2/yr  N Y - none 3.171e-11 C2H2  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
+DICE_OTHERFUELWOOD_C2H4  g/m2/yr  N Y - none 3.171e-11 C2H4  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_OTHERFUELWOOD_BENZ  g/m2/yr  N Y - none 2.923e-11 BENZ  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_OTHERFUELWOOD_TOLU  g/m2/yr  N Y - none 2.891e-11 TOLU  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
 DICE_OTHERFUELWOOD_XYLE  g/m2/yr  N Y - none 2.868e-11 XYLE  ./MainDataDir/DICE_Africa/v2016-10/DICE-Africa-other-fuelwood-use-2013-v01-4Oct2016.nc
@@ -820,13 +838,13 @@ CEDS_CH4_TRA    kg/m2/s N Y F%y4-%m2-01T00:00:00 none none CH4_tra            ./
 CEDS_CH4_RCO    kg/m2/s N Y F%y4-%m2-01T00:00:00 none none CH4_rco            ./MainDataDir/CEDS/v2018-08/%y4/CH4-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_CH4_SLV    kg/m2/s N Y F%y4-%m2-01T00:00:00 none none CH4_slv            ./MainDataDir/CEDS/v2018-08/%y4/CH4-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_CH4_WST    kg/m2/s N Y F%y4-%m2-01T00:00:00 none none CH4_wst            ./MainDataDir/CEDS/v2018-08/%y4/CH4-em-anthro_CMIP_CEDS_%y4.nc
-CEDS_EOH_AGR    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_agr           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
-CEDS_EOH_ENE    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_ene           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
-CEDS_EOH_IND    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_ind           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
-CEDS_EOH_TRA    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_tra           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
-CEDS_EOH_RCO    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_rco           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
-CEDS_EOH_SLV    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_slv           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
-CEDS_EOH_WST    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_wst           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
+CEDS_MOH_AGR    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_agr           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
+CEDS_MOH_ENE    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_ene           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
+CEDS_MOH_IND    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_ind           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
+CEDS_MOH_TRA    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_tra           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
+CEDS_MOH_RCO    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_rco           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
+CEDS_MOH_SLV    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_slv           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
+CEDS_MOH_WST    kg/m2/s N Y F%y4-%m2-01T00:00:00 none 0.521 EOH_wst           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_C2H6_AGR   kg/m2/s N Y F%y4-%m2-01T00:00:00 none none C2H6_agr           ./MainDataDir/CEDS/v2018-08/%y4/C2H6-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_C2H6_ENE   kg/m2/s N Y F%y4-%m2-01T00:00:00 none none C2H6_ene           ./MainDataDir/CEDS/v2018-08/%y4/C2H6-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_C2H6_IND   kg/m2/s N Y F%y4-%m2-01T00:00:00 none none C2H6_ind           ./MainDataDir/CEDS/v2018-08/%y4/C2H6-em-anthro_CMIP_CEDS_%y4.nc
@@ -1099,7 +1117,7 @@ CEDS_SO2_SHP    kg/m2/s N Y F%y4-%m2-01T00:00:00 none none SO2_shp           ./M
 CEDS_NH3_SHP    kg/m2/s N Y F%y4-%m2-01T00:00:00 none none NH3_shp           ./MainDataDir/CEDS/v2018-08/%y4/NH3-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_BCPI_SHP   kg/m2/s N Y F%y4-%m2-01T00:00:00 none none BC_shp            ./MainDataDir/CEDS/v2018-08/%y4/BC-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_OCPI_SHP   kg/m2/s N Y F%y4-%m2-01T00:00:00 none none OC_shp            ./MainDataDir/CEDS/v2018-08/%y4/OC-em-anthro_CMIP_CEDS_%y4.nc
-CEDS_EOH_SHP    kg/m2/s N Y F%y4-%m2-01T00:00:00 none none EOH_shp           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
+CEDS_MOH_SHP    kg/m2/s N Y F%y4-%m2-01T00:00:00 none none EOH_shp           ./MainDataDir/CEDS/v2018-08/%y4/EOH-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_C2H6_SHP   kg/m2/s N Y F%y4-%m2-01T00:00:00 none none C2H6_shp          ./MainDataDir/CEDS/v2018-08/%y4/C2H6-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_C3H8_SHP   kg/m2/s N Y F%y4-%m2-01T00:00:00 none none C3H8_shp          ./MainDataDir/CEDS/v2018-08/%y4/C3H8-em-anthro_CMIP_CEDS_%y4.nc
 CEDS_C4H10_SHP  kg/m2/s N Y F%y4-%m2-01T00:00:00 none none ALK4_butanes_shp  ./MainDataDir/CEDS/v2018-08/%y4/ALK4_butanes-em-anthro_CMIP_CEDS_%y4.nc
@@ -1315,12 +1333,13 @@ SOILNOX_NO  kg/m2/s N Y %y4-%m2-%d2T%h2:00:00 none none SOIL_NOx ./MainDataDir/O
 # --- Seawater concentrations for oceanic emissions (Extension 101) ---
 # CH3I_SEAWATER is commented out by default in HEMCO_Config.rc
 #==============================================================================
-#CH3I_SEAWATER kg/m3 Y Y F1985-%m2-01T00:00:00 none none CH3I_OCEAN ./MainDataDir/CH3I/v2014-07/ocean_ch3i.geos.4x5.nc
-DMS_SEAWATER   kg/m3 Y Y F1985-%m2-01T00:00:00 none none DMS_OCEAN  ./MainDataDir/DMS/v2015-07/DMS_lana.geos.1x1.nc
-ACET_SEAWATER  kg/m3 N Y -                     none none ACET       ./MainDataDir/ACET/v2014-07/ACET_seawater.generic.1x1.nc
-ALD2_SEAWATER  kg/m3 Y Y F2006-%m2-01T00:00:00 none none ALD2       ./MainDataDir/ALD2/v2017-03/ALD2_seawater.geos.2x25.nc
-MENO3_SEAWATER kg/m3 Y Y F2006-%m2-01T00:00:00 none none MENO3      ./MainDataDir/RONO2/v2019-05/RONO2_seawater.geos.2x25.nc
-ETNO3_SEAWATER kg/m3 Y Y F2006-%m2-01T00:00:00 none none ETNO3      ./MainDataDir/RONO2/v2019-05/RONO2_seawater.geos.2x25.nc
+#CH3I_SEAWATER kg/m3  Y Y F1985-%m2-01T00:00:00 none none CH3I_OCEAN ./MainDataDir/CH3I/v2014-07/ocean_ch3i.geos.4x5.nc
+DMS_SEAWATER   kg/m3  Y Y F1985-%m2-01T00:00:00 none none DMS_OCEAN  ./MainDataDir/DMS/v2015-07/DMS_lana.geos.1x1.nc
+ACET_SEAWATER  kg/m3  N Y -                     none none ACET       ./MainDataDir/ACET/v2014-07/ACET_seawater.generic.1x1.nc
+ALD2_SEAWATER  kg/m3  Y Y F2006-%m2-01T00:00:00 none none ALD2       ./MainDataDir/ALD2/v2017-03/ALD2_seawater.geos.2x25.nc
+MENO3_SEAWATER kg/m3  Y Y F2006-%m2-01T00:00:00 none none MENO3      ./MainDataDir/RONO2/v2019-05/RONO2_seawater.geos.2x25.nc
+ETNO3_SEAWATER kg/m3  Y Y F2006-%m2-01T00:00:00 none none ETNO3      ./MainDataDir/RONO2/v2019-05/RONO2_seawater.geos.2x25.nc
+MOH_SEAWATER   kgC/m3 N Y -                     none none MOH        ./MainDataDir/MOH/v2019-12/MOH_seawater.low.kgCm3.generic.1x1.nc
 
 #==============================================================================
 # --- SOILNOX emissions (Extension 104) ---
@@ -1352,9 +1371,34 @@ DEAD_VAI        1        Y Y 1985-%m2-01T00:00:00 none none VAI      ./MainDataD
 MODIS_CHLR  1 N Y F%y4-%m2-01T00:00:00 none none MODIS ./MainDataDir/MODIS_CHLR/v2019-11/MODIS.CHLRv.V5.generic.025x025.%y4.nc
 
 #==============================================================================
-# --- MEGAN biogenic emissions (Extension 108 and 109)
-# Off by default. Use offline biogenic emissions above.
+# --- MEGAN biogenic emissions (Extension 108)
 #==============================================================================
+MEGAN_AEF_ISOP               kgC/m2/s N Y - none none AEF_ISOPRENE             ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+MEGAN_AEF_MBOX               kgC/m2/s N Y - none none AEF_MBO                  ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+MEGAN_AEF_APIN               kgC/m2/s N Y - none none AEF_ALPHA_PINENE         ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+MEGAN_AEF_BPIN               kgC/m2/s N Y - none none AEF_BETA_PINENE          ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+MEGAN_AEF_CARE               kgC/m2/s N Y - none none AEF_CARENE               ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+MEGAN_AEF_LIMO               kgC/m2/s N Y - none none AEF_LIMONENE             ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+MEGAN_AEF_MYRC               kgC/m2/s N Y - none none AEF_MYRCENE              ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+MEGAN_AEF_OCIM               kgC/m2/s N Y - none none AEF_OCIMENE              ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+MEGAN_AEF_SABI               kgC/m2/s N Y - none none AEF_SABINENE             ./MainDataDir/MEGAN/v2018-05/MEGAN2.1_EF.geos.025x03125.nc
+CLM4_PFT_BARE                1        N Y - none none PFT_BARE                 ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_NDLF_EVGN_TMPT_TREE 1        N Y - none none PFT_NDLF_EVGN_TMPT_TREE  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_NDLF_EVGN_BORL_TREE 1        N Y - none none PFT_NDLF_EVGN_BORL_TREE  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_NDLF_DECD_BORL_TREE 1        N Y - none none PFT_NDLF_DECD_BORL_TREE  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_BDLF_EVGN_TROP_TREE 1        N Y - none none PFT_BDLF_EVGN_TROP_TREE  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_BDLF_EVGN_TMPT_TREE 1        N Y - none none PFT_BDLF_EVGN_TMPT_TREE  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_BDLF_DECD_TROP_TREE 1        N Y - none none PFT_BDLF_DECD_TROP_TREE  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_BDLF_DECD_TMPT_TREE 1        N Y - none none PFT_BDLF_DECD_TMPT_TREE  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_BDLF_DECD_BORL_TREE 1        N Y - none none PFT_BDLF_DECD_BORL_TREE  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_BDLF_EVGN_SHRB      1        N Y - none none PFT_BDLF_EVGN_SHRB       ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_BDLF_DECD_TMPT_SHRB 1        N Y - none none PFT_BDLF_DECD_TMPT_SHRB  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_BDLF_DECD_BORL_SHRB 1        N Y - none none PFT_BDLF_DECD_BORL_SHRB  ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_C3_ARCT_GRSS        1        N Y - none none PFT_C3_ARCT_GRSS         ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_C3_NARC_GRSS        1        N Y - none none PFT_C3_NARC_GRSS         ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_C4_GRSS             1        N Y - none none PFT_C4_GRSS              ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+CLM4_PFT_CROP                1        N Y - none none PFT_CROP                 ./MainDataDir/MEGAN/v2018-05/CLM4_PFT.geos.025x03125.v201805.nc       
+MEGAN_ORVC                   1        Y Y F1990-%m2-01T00:00:00 none none OCPI ./MainDataDir/SOA/v2014-07/NVOC.geos.1x1.nc
 
 #==============================================================================
 # --- GFED biomass burning emissions (Extension 111)
@@ -1679,30 +1723,30 @@ NOAA_GMD_CH4 ppbv N Y F%y4-%m2-01T00:00:00 none none SFC_CH4 ./MainDataDir/NOAA_
 #==============================================================================
 # --- CMIP6 monthly mean surface CH4 (pre 1970) (CMIP6_SFC_CH4) ---
 #==============================================================================
-#CMIP6_Sfc_CH4 ppbv N Y F%y4-%m2-01T00:00:00 none none CH4 ./MainDataDir/CMIP6/v2019-12/CMIP6_GHG_surface_VMR_%y4.nc
+#CMIP6_Sfc_CH4 ppbv N Y F%y4-%m2-01T00:00:00 none none CH4 ./MainDataDir/CMIP6/v2019-12/2x2.5/CMIP6_GHG_surface_VMR_%y4.2x25.nc
 
 #==============================================================================
 # --- Surface VMR (SfcVMR) ---
 #==============================================================================
-SfcVMR_CH3Cl    ppbv N Y F%y4-%m2-01T00:00:00 none none CH3Cl    ./MainDataDir/CMIP6/v2019-12/CMIP6_GHG_surface_VMR_%y4.nc
-SfcVMR_CH2Cl2   ppbv N Y F%y4-%m2-01T00:00:00 none none CH2Cl2   ./MainDataDir/CMIP6/v2019-12/CMIP6_GHG_surface_VMR_%y4.nc
-SfcVMR_CHCl3    ppbv N Y F%y4-%m2-01T00:00:00 none none CHCl3    ./MainDataDir/CMIP6/v2019-12/CMIP6_GHG_surface_VMR_%y4.nc
-SfcVMR_CH3Br    ppbv N Y F%y4-%m2-01T00:00:00 none none CH3Br    ./MainDataDir/CMIP6/v2019-12/CMIP6_GHG_surface_VMR_%y4.nc
-SfcVMR_CCl4     v/v  N Y F%y4-%m2-01T00:00:00 none none CCl4     ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_CFC113   v/v  N Y F%y4-%m2-01T00:00:00 none none CFC113   ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_CFC114   v/v  N Y F%y4-%m2-01T00:00:00 none none CFC114   ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_CFC115   v/v  N Y F%y4-%m2-01T00:00:00 none none CFC115   ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_CFC11    v/v  N Y F%y4-%m2-01T00:00:00 none none CFC11    ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_CFC12    v/v  N Y F%y4-%m2-01T00:00:00 none none CFC12    ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_CH3CCl3  v/v  N Y F%y4-%m2-01T00:00:00 none none CH3CCl3  ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_H1211    v/v  N Y F%y4-%m2-01T00:00:00 none none H1211    ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_H1301    v/v  N Y F%y4-%m2-01T00:00:00 none none H1301    ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_HCFC141b v/v  N Y F%y4-%m2-01T00:00:00 none none HCFC141b ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_HCFC142b v/v  N Y F%y4-%m2-01T00:00:00 none none HCFC142b ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_HCFC22   v/v  N Y F%y4-%m2-01T00:00:00 none none HCFC22   ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_N2O      v/v  N Y F%y4-%m2-01T00:00:00 none none N2O      ./MainDataDir/SfcFix/v2019-12/GMI/surface_VMRs_GMI_%y4.nc
-SfcVMR_OCS      ppbv N Y -                    none none OCS      ./MainDataDir/SfcFix/v2019-12/surface_VMR_OCS.nc
-SfcVMR_H2       ppbv N Y -                    none none H2       ./MainDataDir/SfcFix/v2019-12/surface_VMR_H2.nc
+SfcVMR_CH3Cl    ppbv N Y F%y4-%m2-01T00:00:00 none none CH3Cl    ./MainDataDir/CMIP6/v2019-12/2x2.5/CMIP6_GHG_surface_VMR_%y4.2x25.nc
+SfcVMR_CH2Cl2   ppbv N Y F%y4-%m2-01T00:00:00 none none CH2Cl2   ./MainDataDir/CMIP6/v2019-12/2x2.5/CMIP6_GHG_surface_VMR_%y4.2x25.nc
+SfcVMR_CHCl3    ppbv N Y F%y4-%m2-01T00:00:00 none none CHCl3    ./MainDataDir/CMIP6/v2019-12/2x2.5/CMIP6_GHG_surface_VMR_%y4.2x25.nc
+SfcVMR_CH3Br    ppbv N Y F%y4-%m2-01T00:00:00 none none CH3Br    ./MainDataDir/CMIP6/v2019-12/2x2.5/CMIP6_GHG_surface_VMR_%y4.2x25.nc
+SfcVMR_CCl4     v/v  N Y F%y4-%m2-01T00:00:00 none none CCl4     ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_CFC113   v/v  N Y F%y4-%m2-01T00:00:00 none none CFC113   ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_CFC114   v/v  N Y F%y4-%m2-01T00:00:00 none none CFC114   ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_CFC115   v/v  N Y F%y4-%m2-01T00:00:00 none none CFC115   ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_CFC11    v/v  N Y F%y4-%m2-01T00:00:00 none none CFC11    ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_CFC12    v/v  N Y F%y4-%m2-01T00:00:00 none none CFC12    ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_CH3CCl3  v/v  N Y F%y4-%m2-01T00:00:00 none none CH3CCl3  ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_H1211    v/v  N Y F%y4-%m2-01T00:00:00 none none H1211    ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_H1301    v/v  N Y F%y4-%m2-01T00:00:00 none none H1301    ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_HCFC141b v/v  N Y F%y4-%m2-01T00:00:00 none none HCFC141b ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_HCFC142b v/v  N Y F%y4-%m2-01T00:00:00 none none HCFC142b ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_HCFC22   v/v  N Y F%y4-%m2-01T00:00:00 none none HCFC22   ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_N2O      v/v  N Y F%y4-%m2-01T00:00:00 none none N2O      ./MainDataDir/SfcFix/v2019-12/GMI/2x2.5/surface_VMRs_GMI_%y4.2x25.nc
+SfcVMR_OCS      ppbv N Y -                    none none OCS      ./MainDataDir/SfcFix/v2019-12/surface_VMR_OCS.2x25.nc
+SfcVMR_H2       ppbv N Y -                    none none H2       ./MainDataDir/SfcFix/v2019-12/surface_VMR_H2.2x25.nc
 
 ###############################################################################
 ###

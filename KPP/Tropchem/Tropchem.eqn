@@ -55,13 +55,14 @@ v11-02d (Sep 2017)
  (1) Add photolysis of NITs (off by default) (TMS, PK)
  (2) Aerosol heterogeneous uptake for NOx (CDH)
 
-12.7.0 (Oct 2019)
+12.7.0 (Dec 2019)
 -----------------------
  (1) Add MENO3, ETNO3, PRNO3 chemistry from Fisher2018 (JAF)
  (2) Remove old MNO3 (same as MENO3 but not actually used (JAF)
  (3) Add "OTHRO2" that is equivalent to ETO2 but is not derived from C2H6
      oxidation. Necessary to prevent overestimates of ETNO3. All ETO2
      reactions are duplicated except ETO2+NO->ETNO3 channel (JAF)
+ (4) Add MOH as active species (XC, DBM)
 
 ===============================================================================
 DEVELOPERS (alphabetical order; add your name!)
@@ -93,6 +94,7 @@ RHS : Rebecca Schwantes;       rschwant@caltech.edu
 SAS : Sarah Safieddine;        sarahsaf@mit.edu
 SDE : Sebastian Eastham;       seastham@seas.harvard.edu
 TMS : Tomas Sherwen;           tomas.sherwen@york.ac.uk
+XC  : Xin Chen;                chen3849@umn.edu
 
 ===============================================================================
 REFERENCES (alphabetical order)
@@ -291,9 +293,10 @@ MENO3      = IGNORE; {CH3ONO2; methyl nitrate}
 MGLOO      = IGNORE; {Criegee intermediate}
 MGLY       = IGNORE; {CH3COCHO; Methylglyoxal}
 MGLYOO     = IGNORE; {Criegee intermediate}
+MO2        = IGNORE; {CH3O2; Methylperoxy radical}
 MOBA       = IGNORE; {HOC(=O)C(CH3)=CHCHO; 5C acid from isoprene}
 MOBAOO     = IGNORE; {RO2 from MOBA}
-MO2        = IGNORE; {CH3O2; Methylperoxy radical}
+MOH        = IGNORE; {CH3OH; Methanol}
 MONITA     = IGNORE; {Aerosol-phase organic nitrate from monoterpene precursors}
 MONITS     = IGNORE; {Saturated 1st gen monoterpene organic nitrate}
 MONITU     = IGNORE; {Unsaturated 1st gen monoterpene organic nitrate}
@@ -373,7 +376,6 @@ CH4        = IGNORE; {CH4; Methane}
 H          = IGNORE; {H; Atomic hydrogen}
 H2         = IGNORE; {H2; Molecular hydrogen}
 H2O        = IGNORE; {H2O; Water vapor}
-MOH        = IGNORE; {CH3OH; Methanol}
 N2         = IGNORE; {N2; Molecular nitrogen}
 NH2        = IGNORE; {NH2; Ammonia radical}
 NH3        = IGNORE; {NH3; Ammonia}
