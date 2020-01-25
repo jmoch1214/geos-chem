@@ -702,6 +702,8 @@ SfcVMR_N2O      v/v  N Y F%y4-%m2-01T00:00:00 none none N2O      /discover/nobac
 SfcVMR_OCS      ppbv N Y -                    none none OCS      /discover/nobackup/ewlundgr/data/ExtData/SfcFix/v2019-12/surface_VMR_OCS.nc
 SfcVMR_H2       ppbv N Y -                    none none H2       /discover/nobackup/ewlundgr/data/ExtData/SfcFix/v2019-12/surface_VMR_H2.nc
 
+
+
 ###############################################################################
 ###
 ### HEMCO Scale Factors (update if HEMCO_Config.rc changes)
@@ -770,6 +772,7 @@ BROMOCARB_SEASON     '1'        Y    N 2000-%m2-01T00:01:00   none     none    C
 #==============================================================================
 DEAD_SFC_TYP  NA  N V - none none  SFC_TYP    /discover/nobackup/cakelle2/data/dst_tibds.esmf.2x25.nc
 AF_MASK       NA  N V - none none  LANDMASK   /discover/nobackup/cakelle2/data/DICE/mask/AF_LANDMASK.025x025.nc
+CHINA_MASK    NA  N V - none none  MASK       /discover/nobackup/jmoch/MEIC/China_mask.generic.1x1.nc
 
 %%
 

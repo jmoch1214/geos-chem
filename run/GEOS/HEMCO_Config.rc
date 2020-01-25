@@ -1958,8 +1958,12 @@ Warnings:                    1
 1008 AF_MASK     $ROOT/MASKS/v2014-07/AF_LANDMASK.geos.05x0666.nc              LANDMASK 1985/1/1/0 C xy unitless 1 -20/-37/54/40
 )))DICE_Africa
 
-(((AFCID
+(((AFCID.or.MEIC.or.DustDead
 1009 CHINA_MASK  $ROOT/MASKS/v2018-09/China_mask.generic.1x1.nc                MASK     2000/1/1/0 C xy 1 1  70/10/150/60
+)))AFCID.or.MEIC.or.DustDead
+
+
+(((AFCID
 1010 INDIA_MASK  $ROOT/MASKS/v2019-05/India_mask.generic.1x1.nc                MASK     2000/1/1/0 C xy 1 1  67/7/99/39
 )))AFCID
 

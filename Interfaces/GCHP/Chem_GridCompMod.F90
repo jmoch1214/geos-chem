@@ -1139,6 +1139,16 @@ CONTAINS
           VLOCATION          = MAPL_VLocationNone,                            &
                                                                      __RC__ )
     ENDDO
+
+    CALL MAPL_AddExportSpec(GC,                                              &
+         SHORT_NAME         = 'GCD_ChinaMASK',                               & 
+         LONG_NAME          = 'China Mask for overwritting aerosols',       &
+         UNITS              = 'unitless',                                    &
+         DIMS               = MAPL_DimsHorzOnly,                             &
+         VLOCATION          = MAPL_VLocationNone,                            &
+                                                                     __RC__ )
+
+
 #endif
 
     !=======================================================================
@@ -3169,6 +3179,10 @@ CONTAINS
     REAL, POINTER     :: PTR_GCCTO3 (:,:) => NULL()
     REAL, POINTER     :: PTR_GCCTTO3(:,:) => NULL()
 
+    ! China Mask Pointer
+    REAL, POINTER     :: PTR_CHINA_IM2d (:,:) => NULL()
+    REAL, POINTER     :: PTR_CHINA_EX2d (:,:) => NULL()
+
 #else
     ! GCHP only local variables
     INTEGER                      :: trcID, RST
@@ -3283,6 +3297,10 @@ CONTAINS
     IF ( FIRST ) THEN
 #if defined( MODEL_GEOS )
 #      include "GEOSCHEMCHEM_GetPointer___.h"
+       ! set up China Mask
+       call MAPL_GetPointer ( IMPORT, PTR_CHINA_IM2d,      'CHINA_MASK',     __RC__ )
+       call MAPL_GetPointer ( EXPORT, PTR_CHINA_EX2d,      'GCD_ChinaMASK',     __RC__ )
+       PTR_CHINA_EX2d = PTR_CHINA_IM2d
 #else
 #      include "GIGCchem_GetPointer___.h"
 
