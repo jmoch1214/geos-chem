@@ -3301,6 +3301,15 @@ CONTAINS
        call MAPL_GetPointer ( IMPORT, PTR_CHINA_IM2d,      'CHINA_MASK',     __RC__ )
        call MAPL_GetPointer ( EXPORT, PTR_CHINA_EX2d,      'GCD_ChinaMASK',     __RC__ )
        PTR_CHINA_EX2d = PTR_CHINA_IM2d
+       do I = 1,size(PTR_CHINA_IM2d,1)
+       do J = 1,size(PTR_CHINA_IM2d,2)
+          if ( PTR_CHINA_IM2d(I,J) > 0 ) then
+             PTR_CHINA_EX2d(I,J) = 0
+          else
+             PTR_CHINA_Ex2d(I,J) = 1
+          endif
+       enddo
+       enddo
 #else
 #      include "GIGCchem_GetPointer___.h"
 
